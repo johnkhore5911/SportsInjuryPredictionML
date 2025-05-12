@@ -25,9 +25,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-    verification: {
-    google: "google46dd0ffe8082a5c8.html", 
-  },
     generator: 'v0.dev'
 }
 
@@ -38,6 +35,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <head>
+        <meta
+          name="google-site-verification"
+          content="3C7Fp5JCJYH_HXkjYxLQeuLQLGJjVN5HMk3GTKYHiiw"
+        />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
