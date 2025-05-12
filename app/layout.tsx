@@ -25,6 +25,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+    verification: {
+    google: "google46dd0ffe8082a5c8.html", 
+  },
     generator: 'v0.dev'
 }
 
